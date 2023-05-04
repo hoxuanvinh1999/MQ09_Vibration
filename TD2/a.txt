@@ -1,0 +1,12 @@
+To determine the modal force for a harmonic excitation placed at x=a/5, y=b/6 and a excitation frequency of f_e=500 Hz, we can use the formula:
+
+F_nm = 4 * rho * T * A_nm * phi_n(x_e, n) * phi_m(y_e, m) * sin(k_nm * c * t)
+
+where:
+
+rho, T, k_nm, phi_n, and phi_m are as defined in the previous question
+A_nm is the modal amplitude for the (n,m) mode
+x_e = a/5 and y_e = b/6 are the coordinates of the excitation point
+c is the wave speed, which is given by c = sqrt(T/(rho * mu_s))
+t is the time
+To visualize the modal force as an image, we can create a heatmap of the values of F_nm for different values of (n,m). Here is a Python script that implements this calculation and visualization:

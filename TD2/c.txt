@@ -1,0 +1,1 @@
+This script uses the given parameters to calculate the modal coefficients W_nm using the formula W_nm = sqrt(4 * mu_s * T / ((pi^4 * n^2 / a^2) + (m^2 / b^2))^2) and then visualizes them using imshow(). The resulting plot displays the modal coefficients as a function of the indices n and m.
